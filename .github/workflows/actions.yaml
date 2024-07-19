@@ -7,7 +7,7 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: my-cluster  # Add your cluster name here.
+  GKE_CLUSTER: rk-cluster  # Add your cluster name here.
   GKE_ZONE: us-central1-a  # Add your cluster zone here.
   DEPLOYMENT_NAME: chatgpt-deploy # Add your deployment name here.
   IMAGE: chatgpt # Image Name
