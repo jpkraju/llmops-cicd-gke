@@ -21,7 +21,7 @@ class Body(BaseModel):
 
 @app.get("/") 
 def welcome():
-    return {"message": "Welcome to ChatGPT AI Application from Kubernetes version 1"}
+    return {"message": "Welcome to ChatGPT AI Application from Kubernetes version 3"}
 
 @app.get("/hostname") 
 def getHostname( request: Request):
